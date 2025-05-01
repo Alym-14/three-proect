@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body{
+    font-family:Montserrat,sans-serif;
+}
+button,img{
+    cursor: pointer;
+}
+img{
+    max-width: 100%;
+}
+/*header-start*/
+.link{
+    padding: 0 15px 0 75px;
+}
+.left-link{
+    padding-right: 13px;
+    color: rgb(16, 16, 16);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+
+}
+.header{
+    padding: 30px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.right{
+    display: flex;
+    column-gap: 45px;
+}
+/*header-end*/
+/*accessory-start*/
+.accessory-title{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+}
+.block{
+    border-radius: 30px;
+    width: 1110px;
+    height: 197px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(16, 16, 16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iphone-13{
+    margin-top: -30px;
+}
+/*accessory-end*/
+/*case-start*/
+.case-title{
+    padding: 44px 0 20px;
+    color: rgb(131, 131, 131);
+        font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    justify-self: center;
+}
+.case-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    width: 350px;
+    height: 407.65px;
+    padding: 30px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+}
+.case-title-2{
+    padding: 20px 0 49px;
+    color: rgb(28, 28, 39);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21px;
+
+}
+.case-block{
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+/*case-end*/
+/*headphone-start*/
+.headphone-box{
+    padding: 30px;
+    border-radius: 30px;
+    width: 350px;
+    height: 407.65px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+}
+.earpods-text{
+     padding: 40px 0 20px;
+     display: flex;
+     column-gap: 94px;
+ }
+.earpods-text-2{
+    padding: 56px 0 26px;
+    display: flex;
+    column-gap: 94px;
+}
+.earpods-2{
+    padding: 20px;
+    display: flex;
+    justify-self: center;
+}
+.earpods{
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.headphone-title-2{
+    color: rgb(28, 28, 39);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21px;
+
+}
+.headphone-block{
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.headphone-block-2{
+    margin: 30px 0 36px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    column-gap: 30px;
+    justify-content: center;
+}
+/*headphone-end*/
+/*wireless-start*/
+.wireless-text-2{
+    display: flex;
+    column-gap: 100px;
+    padding: 44px 0 20px;
+}
+.wireless-title-2{
+    color: rgb(28, 28, 39);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 21px;
+}
+.wireless-earpods{
+    justify-self: center;
+    display: flex;
+}
+.wireless-box{
+    padding: 30px;
+    border-radius: 30px;
+    width: 350px;
+    height: 407.65px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+}
+.wireless-price{
+    color: rgb(255, 165, 66);
+        font-size: 17px;
+    font-weight: 600;
+    line-height: 21px;
+
+}
+.wireless-block{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
